@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/styles/tailwind.css" />
+  </head>
+  <body class="bg-gradient-to-r from-lime-300 via-green-500 to-emerald-500">
+    <body>
+      <main>
+        <div class="flex flex-col items-center pt-40">
+          <h1 class="pr-8 text-center">Digite sua idade</h1>
+          <input
+            type="email"
+            id="txt"
+            class="border-solid border-2 border-sky-500 rounded"
+          />
+          <h1 class="pr-8 mt-8">Digite seu nome</h1>
+          <input
+            type="email"
+            id="txt2"
+            class="border-solid border-2 border-sky-500 rounded"
+          />
+          <div>
+            <button onclick="clicar()" class="bg-white mt-8 p-1">
+              Verificar
+            </button>
+          </div>
+        </div>
+        <p id="res" class="text-center pt-8"></p>
+        <!-- ScrollReaveal Lib -->
+        <script src="/src/views/codigo.js"></script>
+      </main>
+    </body>
+  </body>
+</html>
